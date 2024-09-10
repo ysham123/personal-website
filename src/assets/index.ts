@@ -7,8 +7,11 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
+import python from "./tech/python.png";
+import sql from "./tech/sql.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -26,9 +29,15 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import chatbot from "./chatbot.png";
+import analysis from "./analysis.png";
+import pizza_app from "./pizza_app.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import global_tech from "./company/global-tech.jpeg";
+import code_emergancy from "./company/code-emergancy.jpeg";
+import samsearch from "./company/samsearch.jpeg";
 
 export {
   logo,
@@ -59,4 +68,12 @@ export {
   carrent,
   jobit,
   tripguide,
+  sql,
+  python,
+  global_tech,
+  code_emergancy,
+  samsearch,
+  chatbot,
+  analysis,
+  pizza_app,
 };

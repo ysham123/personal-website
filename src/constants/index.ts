@@ -27,11 +27,19 @@ import {
   meta,
   starbucks,
   tesla,
+  samsearch,
+  global_tech,
+  code_emergancy,
   shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  sql,
+  python,
+  chatbot,
+  analysis,
+  pizza_app
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -51,132 +59,123 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
+    title: "Backend Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Frontend Developer",
+    icon: web,
+  },
+  {
+    title: "Data Anaysis",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Ai/Machine Learning",
     icon: creator,
   },
 ];
 
 const technologies: TTechnology[] = [
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
+  // {
+  //   name: "JavaScript",
+  //   icon: javascript,
+  // },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Python",
+    icon: python,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "SQL",
+    icon: sql
   },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
+    title: "Code Emergency LLC",
+    // companyName: "Code Emergency LLC",
+    icon: code_emergancy, // Placeholder for your icon
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "August 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Builtacross-platform pizza delivery app using React Native and Expo, optimized for both iOS and Android with real-time order updates via Supabase.",
+      "Implementedintuitive navigation with Expo Router, improving user experience and app usability.",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
+    title: " SamSearch",
+    // companyName: "SamSearch",
+    icon: samsearch, 
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "May 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      " Engineeredachatbot using FastAPI and React JS, enhancing user interaction with government contracts through chine learning-driven query responses.",
+      "Builtamodular, scalable codebase for session handling, API integration, and document analysis, ensuring long-term maintainability.",
+      "Optimizeddata storage and retrieval processes by integrating Astra DB, improving query performance and enabling advanced analysis of vectorized document data."
     ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
+    title: "The Global Tech Experience",
+    // companyName: "The Global Tech Experience",
+    icon: global_tech, 
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "August 2023 - December 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      " Developedastock analysis tool using PyQt6 with real-time data integration from the y-finance API for market insights.",
+      "Designedadvanced data visualizations with Matplotlib, enhancing user interaction and decision-making.",
     ],
   },
 ];
+
 
 const testimonials: TTestimonial[] = [
   {
@@ -207,66 +206,64 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Ai Chatbot",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Engineeredachatbot using FastAPI and React JS, enhancing user interaction with government contracts through machine learning-driven query responses.Builtamodular, scalable codebase for session handling, API integration, and document analysis, ensuring long-term maintainability.",
     tags: [
       {
-        name: "react",
+        name: "FastAPI",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "React JS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Astra DB",
         color: "pink-text-gradient",
       },
+      
     ],
-    image: carrent,
+    image: chatbot,
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Pizza Delivery App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Builtacross-platform pizza delivery app using React Native and Expo, optimized for both iOS and Android with real-time order updates via Supabase.Implementedintuitive navigation with Expo Router, improving user experience and app usability.",
     tags: [
       {
-        name: "react",
+        name: "React Native",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Expo",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      
     ],
-    image: jobit,
+    image: pizza_app,
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Stock Analysis",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developedastock analysis tool using PyQt6 with real-time data integration from the y-finance API for market insights.Designedadvanced data visualizations with Matplotlib, enhancing user interaction and decision-making.",
     tags: [
       {
-        name: "nextjs",
+        name: "PyQt6",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "y-finance API",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Matplotlib",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
+    image: analysis,
     sourceCodeLink: "https://github.com/",
   },
 ];
