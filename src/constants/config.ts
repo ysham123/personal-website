@@ -143,8 +143,7 @@ export const config: TConfig = {
   hero: {
     name: "Yosef Shammout",
     p: [
-      "I develop web platforms, user-friendly interfaces, and advanced software solutions.",
-      "Experienced in backend development using node js, Django, and AWS."
+      "I specialize in building scalable web platforms, intuitive interfaces, and advanced software solutions, with expertise in Django, FastAPI, and Astra DB for backend development."
     ],
   },
   contact: {

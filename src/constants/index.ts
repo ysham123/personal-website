@@ -12,31 +12,12 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
-  html,
-  css,
+  python,
   reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
+  sql,
   samsearch,
   global_tech,
   code_emergancy,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
-  sql,
-  python,
   chatbot,
   analysis,
   pizza_app
@@ -67,32 +48,16 @@ const services: TService[] = [
     icon: web,
   },
   {
-    title: "Data Anaysis",
+    title: "Data Analyst",
     icon: backend,
   },
   {
-    title: "Ai/Machine Learning",
+    title: "AI/Machine Learning Engineer",
     icon: creator,
   },
 ];
 
 const technologies: TTechnology[] = [
-  // {
-  //   name: "HTML 5",
-  //   icon: html,
-  // },
-  // {
-  //   name: "CSS 3",
-  //   icon: css,
-  // },
-  // {
-  //   name: "JavaScript",
-  //   icon: javascript,
-  // },
-  // {
-  //   name: "TypeScript",
-  //   icon: typescript,
-  // },
   {
     name: "Python",
     icon: python,
@@ -105,77 +70,44 @@ const technologies: TTechnology[] = [
     name: "SQL",
     icon: sql
   },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
-  // {
-  //   name: "Tailwind CSS",
-  //   icon: tailwind,
-  // },
-  // {
-  //   name: "Node JS",
-  //   icon: nodejs,
-  // },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  // },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
-  // {
-  //   name: "git",
-  //   icon: git,
-  // },
-  // {
-  //   name: "figma",
-  //   icon: figma,
-  // },
-  // {
-  //   name: "docker",
-  //   icon: docker,
-  // },
 ];
 
 const experiences: TExperience[] = [
   {
-    title: "Code Emergency LLC",
-    // companyName: "Code Emergency LLC",
-    icon: code_emergancy, // Placeholder for your icon
+    companyName: "Code Emergency LLC",
+    title: "Cofounder & CEO",
+    icon: code_emergancy,
     iconBg: "#383E56",
     date: "August 2024 - Present",
     points: [
-      "Builtacross-platform pizza delivery app using React Native and Expo, optimized for both iOS and Android with real-time order updates via Supabase.",
-      "Implementedintuitive navigation with Expo Router, improving user experience and app usability.",
+      "Built a HIPAA-compliant web platform enabling emergency personnel to instantly access critical patient information via secure, custom QR codes.",
+      "Led full-stack development using Django for backend operations and React JS for a dynamic, user-friendly frontend, ensuring seamless performance.",
     ],
   },
   {
-    title: " SamSearch",
-    // companyName: "SamSearch",
+    companyName: "SamSearch",
+    title: "Software Engineer Intern",
     icon: samsearch, 
     iconBg: "#E6DEDD",
-    date: "May 2024 - Present",
+    date: "May 2024 - August 2024",
     points: [
-      " Engineeredachatbot using FastAPI and React JS, enhancing user interaction with government contracts through chine learning-driven query responses.",
-      "Builtamodular, scalable codebase for session handling, API integration, and document analysis, ensuring long-term maintainability.",
-      "Optimizeddata storage and retrieval processes by integrating Astra DB, improving query performance and enabling advanced analysis of vectorized document data."
+      "Engineered a chatbot using FastAPI and React JS, enhancing user interaction with government contracts through machine learning-driven query responses.",
+      "Built a modular, scalable codebase for session handling, API integration, and document analysis, ensuring long-term maintainability.",
+      "Optimized data storage and retrieval processes by integrating Astra DB, improving query performance and enabling advanced analysis of vectorized document data."
     ],
   },
   {
-    title: "The Global Tech Experience",
-    // companyName: "The Global Tech Experience",
+    companyName: "The Global Tech Experience",
+    title: "SQL and Python Specialist Intern",
     icon: global_tech, 
     iconBg: "#383E56",
     date: "August 2023 - December 2023",
     points: [
-      " Developedastock analysis tool using PyQt6 with real-time data integration from the y-finance API for market insights.",
-      "Designedadvanced data visualizations with Matplotlib, enhancing user interaction and decision-making.",
+      "Conducted in-depth data analysis for The Recording Academy’s website project, leveraging SQL and Python for data querying and visualization.",
+      "Developed automation scripts in Python, driving process improvements and supporting data-driven decision-making.",
     ],
   },
 ];
-
 
 const testimonials: TTestimonial[] = [
   {
@@ -206,9 +138,9 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Ai Chatbot",
+    name: "AI Chatbot",
     description:
-      "Engineeredachatbot using FastAPI and React JS, enhancing user interaction with government contracts through machine learning-driven query responses.Builtamodular, scalable codebase for session handling, API integration, and document analysis, ensuring long-term maintainability.",
+      "Engineered a chatbot using FastAPI and React JS, enhancing user interaction with government contracts through machine learning-driven query responses. Built a modular, scalable codebase for session handling, API integration, and document analysis, ensuring long-term maintainability.",
     tags: [
       {
         name: "FastAPI",
@@ -222,7 +154,6 @@ const projects: TProject[] = [
         name: "Astra DB",
         color: "pink-text-gradient",
       },
-      
     ],
     image: chatbot,
     sourceCodeLink: "https://github.com/",
@@ -230,7 +161,7 @@ const projects: TProject[] = [
   {
     name: "Pizza Delivery App",
     description:
-      "Builtacross-platform pizza delivery app using React Native and Expo, optimized for both iOS and Android with real-time order updates via Supabase.Implementedintuitive navigation with Expo Router, improving user experience and app usability.",
+      "Built a cross-platform pizza delivery app using React Native and Expo, optimized for both iOS and Android with real-time order updates via Supabase. Implemented intuitive navigation with Expo Router, improving user experience and app usability.",
     tags: [
       {
         name: "React Native",
@@ -240,7 +171,6 @@ const projects: TProject[] = [
         name: "Expo",
         color: "green-text-gradient",
       },
-      
     ],
     image: pizza_app,
     sourceCodeLink: "https://github.com/",
@@ -248,7 +178,7 @@ const projects: TProject[] = [
   {
     name: "Stock Analysis",
     description:
-      "Developedastock analysis tool using PyQt6 with real-time data integration from the y-finance API for market insights.Designedadvanced data visualizations with Matplotlib, enhancing user interaction and decision-making.",
+      "Developed a stock analysis tool using PyQt6 with real-time data integration from the y-finance API for market insights. Designed advanced data visualizations with Matplotlib, enhancing user interaction and decision-making.",
     tags: [
       {
         name: "PyQt6",
